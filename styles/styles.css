@@ -1,3 +1,64 @@
+:root {
+    --primary-color: darkblue;
+    --text-color: white;
+    --border-color: #000;
+    --light-background: #eee;
+    --dark-text: #333;
+    --main-width: 840px;
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: 10px;
+}
+
+nav a {
+    color: var(--text-color);
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+main {
+    max-width: var(--main-width);
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: var(--light-background);
+    color: var(--dark-text);
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+p {
+    padding: 0;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid var(--border-color);
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid var(--border-color);
+    text-align: center;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
