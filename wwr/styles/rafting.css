@@ -1,8 +1,9 @@
 :root {
-    --primary-color: #055A05;
-    --secondary-color: #F4A261;
-    --accent1-color: #264653;
-    --accent2-color: #E9C46A;
+    --primary-color: #1D3557;
+    --secondary-color: #F1FAEE;
+    --accent1-color: #457B9D;
+    --accent2-color: #A8DADC;
+
     --heading-font: Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -31,14 +32,23 @@ h2 {
     color: var(--primary-color);
 }
 
-nav,
-p,
-section,
-article {
+nav {
     margin: 16px;
     padding: 8px;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+}
+
+p {
+    margin: 16px;
+    padding: 8px;
+}
+
+section {
+    margin: 16px;
+    padding: 16px;
+}
+
+article {
+    padding: 8px;
 }
 
 .socialmedia a {
