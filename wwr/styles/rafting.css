@@ -3,7 +3,6 @@
     --secondary-color: #F4A261;
     --accent1-color: #264653;
     --accent2-color: #E9C46A;
-
     --heading-font: Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -38,6 +37,8 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .socialmedia a {
