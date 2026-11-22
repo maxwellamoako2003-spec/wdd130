@@ -82,7 +82,7 @@ header nav a {
 
 header nav a:hover {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--secondary-color)
 }
 
 /* HERO SECTION */
@@ -104,7 +104,8 @@ header nav a:hover {
     text-align: center;
     opacity: 0.9;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--secondary-color);
+
 }
 
 .hero article {
