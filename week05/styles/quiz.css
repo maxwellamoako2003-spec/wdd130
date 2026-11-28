@@ -1,0 +1,94 @@
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: white;
+    margin: 0;
+    padding: 15px;
+}
+
+/* Main heading */
+main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: navy;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Quiz form */
+form {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 25px 23px;
+}
+
+/* Questions */
+.question {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+label strong {
+    color: navy;
+    font-size: 18px;
+}
+
+/* Input fields */
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 2px;
+    font-size: 16px;
+    background-color: white;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Code example */
+pre {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    max-width: 400px;
+    margin: 10px auto 15px;
+    overflow-x: auto;
+}
+
+pre code {
+    font-size: 12px;
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000066;
+}
